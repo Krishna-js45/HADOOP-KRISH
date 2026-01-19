@@ -1,25 +1,3 @@
-
-
-## ✅ GITHUB STRUCTURE
-
-```text
-hadoop-lab/
-│
-├── README.md
-├── hadoop-installation-steps.json
-└── screenshots/   (optional)
-```
-
-* `README.md` → Human-readable guide
-* `hadoop-installation-steps.json` → Machine-structured steps (copy source)
-
----
-
-## ✅ OPTION 1 (BEST PRACTICE) — Reference JSON from README
-
-### `README.md` (paste this)
-
-````md
 # Hadoop Installation – Windows 10 (WSL)
 
 This repository provides a **step-by-step Hadoop installation guide**
@@ -45,74 +23,35 @@ Open **PowerShell as Administrator** and run:
 
 ```powershell
 wsl --install
-````
 
-Restart if prompted.
+Step 2 — Install Ubuntu
 
----
+Step 2 — Install Ubuntu
 
-### Step 2 — Install Ubuntu
 
-```powershell
-wsl --install -d Ubuntu-20.04
-```
 
-Create Linux username and password.
+📌 Full Step-by-Step Guide
 
----
-
-## 📌 Full Step-by-Step Guide
-
-➡️ Open **`hadoop-installation-steps.json`**
+➡️ Open hadoop-installation-steps.json
 ➡️ Follow steps in order
-➡️ Copy only values under `"commands"`
+➡️ Copy only values under "commands"
 
----
+🌐 Hadoop Web UI
 
-## 🌐 Hadoop Web UI
 
-* HDFS: [http://localhost:9870](http://localhost:9870)
-* YARN: [http://localhost:8088](http://localhost:8088)
+⚠️ Notes for Ladies and gentleman
 
----
+Hadoop installation is one-time only
+After restart, run:
 
-## ⚠️ Notes for Students
-
-* Hadoop installation is **one-time only**
-* After restart, run:
-
-```bash
 start-dfs.sh
 start-yarn.sh
-```
 
----
+## 📄 Installation Steps (JSON)
 
-## 🎓 For Lab / Seminar
-
-This setup runs Hadoop in **single-node pseudo-distributed mode**,
-suitable for:
-
-* Academic labs
-* Experiments
-* Demonstrations
-
-````
-
-This is **clean, readable, and professional**.
-
----
-
-## ❌ WHAT NOT TO DO
-
-Do **not** do this:
-
-```md
-{ "step": 1, "title": "Enable WSL", ... }
-````
-
-It becomes unreadable and confusing for students.
-
----
+```json
+{ ... your full JSON here ... }
 
 
+HDFS: http://localhost:9870
+YARN: http://localhost:8088
