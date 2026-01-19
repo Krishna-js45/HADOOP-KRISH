@@ -1,4 +1,4 @@
-## `README.md` (krishna-js45) --hosted by rajkrishna
+## `README.md` (krishna-js45) 
 
 ### STEP 1 — Enable WSL (Windows PowerShell – Admin)
 
