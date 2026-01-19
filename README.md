@@ -1,13 +1,6 @@
-Good question. This is the **right concern**, and the solution is **simple and clean**.
 
-You **do NOT paste raw JSON directly** into `README.md` as plain text.
-Instead, you **embed it properly** so students can **read it clearly and copy commands easily**.
 
-Below is the **correct, professional way**.
-
----
-
-## ✅ RECOMMENDED GITHUB STRUCTURE
+## ✅ GITHUB STRUCTURE
 
 ```text
 hadoop-lab/
@@ -122,38 +115,4 @@ It becomes unreadable and confusing for students.
 
 ---
 
-## ✅ OPTION 2 — Embed JSON as a Code Block (Optional)
 
-If you **really want** JSON visible in README:
-
-````md
-## 📄 Installation Steps (JSON)
-
-```json
-{ ... your full JSON here ... }
-````
-
-```
-
-⚠️ This is **less student-friendly**, but acceptable.
-
----
-
-## 🏆 BEST PRACTICE (WHAT EXAMINERS LIKE)
-
-- README.md → **Narrative + Quick commands**
-- JSON file → **Exact lab procedure**
-- Screenshots → **Proof of execution**
-
-You are documenting like a **real open-source project**.
-
----
-
-### Next I can help you with:
-- A **one-page seminar explanation**
-- **Lab viva questions**
-- **Common errors section**
-- Turning this into a **website with copy buttons**
-
-Tell me what you want next.
-```
