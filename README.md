@@ -26,8 +26,6 @@ wsl --install
 
 Step 2 — Install Ubuntu
 
-Step 2 — Install Ubuntu
-
 
 
 📌 Full Step-by-Step Guide
